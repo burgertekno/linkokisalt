@@ -14,4 +14,7 @@ Bu işlemleri yaptıktan sonra scriptin ana dizininde bulunan *veritabani.sql* d
 - Şifreli link kısaltma özelliği.
 - ...
 
+## Son Olarak
+Scripte .htaccess dosyası dahil değildir. Bu dosyayı kendiniz oluşturmanız gerekmektedir. İnternette bu konu hakkında kaynak bulabilirsiniz.
+
 **Bu script, Tekno Burger (www.teknoburger.blogspot.com.tr) tarafından *halka ve geliştirmeye* açık olarak PHP kodlama dilinde, Bootstrap, JQUERY vb. yardımcı eklentiler kullanılarak geliştirilmiştir.**
