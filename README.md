@@ -6,6 +6,7 @@ LinkoKısalt scriptini kullanabilmek için bilgisayarınıza indirmeniz gereklid
 $sitead = "LinkoKısalt"; satırındaki **LinkoKısalt** yerine kendi sitenizin adını yazmanız,
 $db = new PDO("mysql:host=localhost;dbname=kisa", "root", "12345678"); satırındaki **localhost** yerine MySQL sunucuzun adresini, **kisa** yerine veritabanınızın adını, **root** yerine veritabanı kullanıcı adını ve **12345678** yerine veritabanı kullanıcı şifresini yazmanız gerekmektedir.
 Bu işlemleri yaptıktan sonra scriptin ana dizininde bulunan *veritabani.sql* dosyasını veritabanına aktarmanız gerekmektedir.
+**Ek Olarak**: olustur.php dosyasında bulunan http://127.0.0.1/kisaurl/git.php?id= kısmını silip yerine kendi scripti kurduğunuz site ve dizin adresini yazmanız gereklidir. (http://orneksiteadresi.com/ gibi)
 
 ## Scriptin Özellikleri
 - Tamamen ücretsiz ve açık kaynak kodlu.
@@ -14,7 +15,7 @@ Bu işlemleri yaptıktan sonra scriptin ana dizininde bulunan *veritabani.sql* d
 - Şifreli link kısaltma özelliği.
 - ...
 
-## Son Olarak
-Scripte .htaccess dosyası dahil değildir. Bu dosyayı kendiniz oluşturmanız gerekmektedir. İnternette bu konu hakkında kaynak bulabilirsiniz.
+## Güncelleme
+Yeni yapılan güncelleme ile scripte .htaccess dosyası eklendi. Artık linkler http://orneksiteadresi.com/xxxx şeklinde kısaltılıyor.
 
 **Bu script, Tekno Burger (www.teknoburger.blogspot.com.tr) tarafından *halka ve geliştirmeye* açık olarak PHP kodlama dilinde, Bootstrap, JQUERY vb. yardımcı eklentiler kullanılarak geliştirilmiştir.**
